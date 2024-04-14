@@ -2,7 +2,7 @@ cont:str = "s";
 
 while cont == "s":
 
-    def soma(n1:int,n2:int,op:str):
+    def soma(n1:float,n2:float,op:str):
         if op == '+':
             return n1 + n2;
         elif op == '-':
