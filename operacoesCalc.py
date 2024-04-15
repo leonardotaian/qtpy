@@ -18,6 +18,7 @@ while cont == "s":
     nu1 = int(input("1° número: "));
     nu2 = int(input("2° número: "));
     op = str(input("Operação: "));
-    print(soma(nu1,nu2,op))
+    result:float = soma(nu1,nu2,op);
+    print(f"Resultado: {result:.2f}")
 
     cont = str(input("Deseja realizar outra operação? s/n "))

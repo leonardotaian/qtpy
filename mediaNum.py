@@ -5,4 +5,4 @@ soma:float = 0;
 for i in lista:
     soma += i;
     media:float = soma / len(lista);
-print(f"A média dos números da lista fornecida é de {media}")
+print(f"A média dos números da lista fornecida é de {media:.2f}")

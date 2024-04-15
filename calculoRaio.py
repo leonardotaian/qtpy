@@ -48,13 +48,13 @@ while cont == True:
 
     if cont == True:
         vol:float = (4 * math.pi * (raio * raio * raio)) / 3;
-        print(f"O volume da esfera é de {vol} {un}.")
+        print(f"O volume da esfera é de {vol:.2f} {un}.")
         again:str = str(input("Deseja realizar outro cálculo? S|N "))
         if again == "s":
             cont = True;
-    else:
-        cont = False;
-        print("Fim da execução.")
+        else:
+            cont = False;
+            print("Fim da execução.")
     
     
 
